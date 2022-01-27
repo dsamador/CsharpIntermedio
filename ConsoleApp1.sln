@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexer", "Indexer\Indexer.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SobrecargaOperadoresBinarios", "SobrecargaOperadoresBinarios\SobrecargaOperadoresBinarios.csproj", "{12E292FE-7DC7-46BC-BD4D-790DC6A303B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P17SerializacionBinaria", "P17SerializacionBinaria\P17SerializacionBinaria.csproj", "{37C6C936-4676-4C00-8C6E-1283C831B1A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P17SerializacionBinaria", "P17SerializacionBinaria\P17SerializacionBinaria.csproj", "{37C6C936-4676-4C00-8C6E-1283C831B1A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P21Streams", "P21Streams\P21Streams.csproj", "{0DA54F0C-11AD-4EE9-A34B-D5D905F01D27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{37C6C936-4676-4C00-8C6E-1283C831B1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37C6C936-4676-4C00-8C6E-1283C831B1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37C6C936-4676-4C00-8C6E-1283C831B1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA54F0C-11AD-4EE9-A34B-D5D905F01D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA54F0C-11AD-4EE9-A34B-D5D905F01D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA54F0C-11AD-4EE9-A34B-D5D905F01D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA54F0C-11AD-4EE9-A34B-D5D905F01D27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
