@@ -12,13 +12,18 @@ namespace dividirpor12
             {
                 int cantidadValores = 1;
                 Console.WriteLine("Nueva cantidad de valores");
+                Console.WriteLine("Nombre de persona");
+                string nombre = Console.ReadLine();
+                Console.WriteLine($"Año de promedios de {nombre}");
+                string year = Console.ReadLine();
                 while(cantidadValores < 6)
                 {
                     Console.WriteLine($"Valor numero {cantidadValores}");
-                    double valor = Double.Parse(Console.ReadLine());
+                    
+                    double valor = Double.Parse(Console.ReadLine());                        
 
                     if (valor == 0)
-                        valor = 1;
+                        valor = 12;
 
                     double promedio = valor / 12;
                     
@@ -26,12 +31,15 @@ namespace dividirpor12
                     
                     cantidadValores++;
                 }
-                Console.WriteLine("-----------");
-                Console.WriteLine("--Valores--");
+                Console.WriteLine("---------------");
+                Console.WriteLine("----Valores----");
+                Console.WriteLine($"Nombre: {nombre} Year: {year}");
+                Console.WriteLine("---------------");
                 int indice = 1;
                 foreach (var item in list)
                 {
-                    Console.WriteLine($"Valor {indice} {item}");
+                    Console.WriteLine($"Valor {indice} :  {item}");
+                    Console.WriteLine("-----------------------");
                     indice++;
                 }
                 Console.WriteLine("\n");
