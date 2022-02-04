@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dividirpor12", "dividirpor1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanzado01ArrayList", "Avanzado01ArrayList\Avanzado01ArrayList.csproj", "{7789F903-9749-484A-A383-D1DD7208CFD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estructuras4Recursion", "Estructuras4Recursion\Estructuras4Recursion.csproj", "{6CBDD042-FD66-46C2-9F6A-0C677910F09B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estructuras4Recursion", "Estructuras4Recursion\Estructuras4Recursion.csproj", "{6CBDD042-FD66-46C2-9F6A-0C677910F09B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estructuras5ListaLigada1", "Estructuras5ListaLigada1\Estructuras5ListaLigada1.csproj", "{9ADCDF03-1874-4F76-8371-81CE6996A6A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{6CBDD042-FD66-46C2-9F6A-0C677910F09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CBDD042-FD66-46C2-9F6A-0C677910F09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CBDD042-FD66-46C2-9F6A-0C677910F09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ADCDF03-1874-4F76-8371-81CE6996A6A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ADCDF03-1874-4F76-8371-81CE6996A6A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ADCDF03-1874-4F76-8371-81CE6996A6A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ADCDF03-1874-4F76-8371-81CE6996A6A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
