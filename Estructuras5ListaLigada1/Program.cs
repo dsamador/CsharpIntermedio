@@ -17,6 +17,13 @@ namespace Estructuras5ListaLigada1
             cListaLigada.Adicionar(14);
 
             cListaLigada.Transversa();
+            Console.WriteLine(cListaLigada.EstaVacio());
+
+            cListaLigada.Vaciar();
+            Console.WriteLine(cListaLigada.EstaVacio());
+
+            CNodo encontrado = cListaLigada.Buscar(3);
+            Console.WriteLine(encontrado);
         }
     }
 }

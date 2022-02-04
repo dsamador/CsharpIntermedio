@@ -84,5 +84,34 @@ namespace Estructuras5ListaLigada1
             ancla.Siguiente = null;
         }
 
+        //indica si la lista esta vacia o no
+        public bool EstaVacio()
+        {
+            if (ancla.Siguiente == null)
+                return true;
+            return false;
+        }
+
+        //Regresa el nodo con la primera ocurrencia del dato
+        public CNodo Buscar(int pDato)
+        {
+            if(EstaVacio() == true)
+                return null;
+
+            trabajo = ancla;
+
+            //recorremos para ver si lo encontramos
+            while(trabajo2.Siguiente != null)
+            {
+                trabajo2 = trabajo2.Siguiente;
+
+                //al encontrarlo lo regresamos
+                if(trabajo2.Dato == pDato)
+                    return trabajo2;
+            }
+
+            //no se encontro, regresamos null
+            return null;
+        }
     }
 }
