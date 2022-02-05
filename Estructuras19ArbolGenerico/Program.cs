@@ -6,7 +6,25 @@ namespace Estructuras19ArbolGenerico
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CArbol arbol = new CArbol();
+
+            CNodo raiz = arbol.Insertar("a", null);
+
+            arbol.Insertar("b", raiz);
+            arbol.Insertar("c", raiz);
+
+            
+
+            CNodo nodoHelper = arbol.Insertar("d", raiz);
+            arbol.Insertar("h", nodoHelper);// h va para d
+
+            nodoHelper = arbol.Insertar("e", raiz);
+            arbol.Insertar("i", nodoHelper);
+            nodoHelper = arbol.Insertar("j", nodoHelper);
+            arbol.Insertar("p", nodoHelper);
+            arbol.Insertar("q", nodoHelper);
+
+            arbol.TransversaPreO(raiz);
         }
     }
 }

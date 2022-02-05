@@ -63,5 +63,34 @@ namespace Estructuras19ArbolGenerico
             }
         }
 
+        //transversa preorden
+        public void TransversaPreO(CNodo pNodo)
+        {
+            //caso base, es sencillo
+            if (pNodo == null)
+                return;
+
+            //Me proceso a mi primero
+            for (int n = 0; n < i; n++)
+                Console.WriteLine(" ");
+            
+
+            Console.WriteLine(pNodo.Dato);
+
+            //Luego proceso a mi hijo
+            //caso inductivo
+            if(pNodo.Hijo == null)
+            {
+                i++;
+                TransversaPreO(pNodo.Hijo);
+                i--;
+            }
+
+            // si tengo hermanos los proceso
+            //otro caso inductivo
+            if(pNodo.Hermano != null)
+                TransversaPreO(pNodo.Hermano);
+        }
+
     }
 }
